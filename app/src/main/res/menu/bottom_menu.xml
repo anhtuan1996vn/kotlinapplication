@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/recentFragment"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        android:title="Recent" />
+    <item
+        android:id="@+id/categoryFragment"
+        android:icon="@android:drawable/ic_search_category_default"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        android:title="Category" />
+    <item
+        android:id="@+id/helpFragment"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="always"
+        android:orderInCategory="3"
+        android:title="Help" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_person_black_24dp"
+        app:showAsAction="always"
+        android:orderInCategory="4"
+        android:title="Profile" />
+
+
+
+</menu>

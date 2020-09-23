@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">KotlinApplication</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="html_0">
+            <![CDATA[
+<h1>How To Shop At Solomerce Apps :</h1>
+<ul>
+<li>Shopping through the shopping cart, select the items that will be purchased in accordance with your wishes.</li>
+<li>Continue by filling the form e-mail with details of the total price.</li>
+<li>After you place an order, we will immediately check the conditions, the availability (and prices if there are changes in the price), as well as the shipping of the product that you yourselves message, therefore DO NOT send / transfer money before there is confirmation from us via phone / SMS or email.</li>
+<li>Upon confirmation from us, please send / transfer payment to one of the following bank account</li>
+<li>We only accept cash payments by wire transfer to a bank account.</li>
+</ul>
+]]>
+    </string>
+    <string name="html_1">
+        <![CDATA[
+<p>Solomerce will send information on the number of total expenditures and postage to your email address, for details please check your email!</p>
+<p>Payment can be made by transfer to :</p>
+<b>PayPal</b>
+<ul>
+<li>E-Mail : dimas.yanpradipta@gmail.com</li>
+</ul>
+<b>BANK BCA</b>
+<ul>
+<li>Account Number : 12345678</li>
+<li>Account Name : Solodroid Developer</li>
+</ul>
+<b>BANK MANDIRI</b>
+<li>Account Number : 12345678</li>
+<li>Account Name : Solodroid Developer</li>
+<b>BANK BRI</b>
+<ul>
+<li>Account Number : 12345678</li>
+<li>Account Name : Solodroid Developer</li>
+</ul>
+<b>BANK BNI</b>
+<ul>
+<li>Account Number : 12345678</li>
+<li>Account Name : Solodroid Developer</li>
+</ul>
+<b>Please note :</b>
+<ul>
+<li>Transfer between accounts BCA, Mandiri, BNI and BRI, is a way of sending money the fastest we have received and to be confirmed soon</li>
+<li>Cash deposits, usually can be received on the same day</li>
+<li>Transfers between banks, may be received on the same day, it could be 1-2 days after the transfer is made, especially if done on weekends (Friday)</li>
+</ul>
+<p>We will give you confirmation once the money goes into the account.</p>
+<b>Pay in Place (CoD - Cash on Delivery) :</b>
+<ul>
+<li>Currently, a special Jakarta, Depok, Bekasi and Bogor City City could pay on the spot - CoD.</li>
+<li>Long time sent according to a schedule, or meet according to the agreement.</li>
+<li>Payment is given to the Courier, a number of Memorandum.</li>
+<li>Minimal expenditure of $10 USD</li>
+</ul>
+]]>
+    </string>
+    <string name="html_2">
+        <![CDATA[
+        <p>For shipping, we use a number of shipping services (couriers) JNE, TIKI, and Pos Indonesia.
+Product prices do not include shipping costs, shipping costs depend on the weight and volume of goods, destination address and courier used.</p>
+        ]]>
+    </string>
+    <string name="html_3">
+        <![CDATA[
+        <p>E-Commerce / Online Shop App is a mobile commerce system which run under Android platform that used for promotion and selling your product with single application. With powerful Admin Panel can manage the order, create category and product menu, also can configurations such as currency, tax, user, ect from admin panel on the web. you can add, update, update or change that product menu, category, tax, currency and change admin password with generate password, etc. This application created by Android for client side and then PHP MySQL for Admin side. Run under Android platform which is the most popular operating system in the world. Using this application you can save your money and time in creating application for ecommerce or online shop application.</p>
+        ]]>
+    </string>
+    <string name="html_4">
+         <![CDATA[
+         <p>
+         Do you still feel confused by the system that you need? Do not worry, please contact us now! Gladly we will help resolve your needs.
+121 King Street, Melbourne
+Victoria 3000 Australia
+Email : help.solodroid@gmail.com
+         </p>
+         ]]>
+    </string>
+    <string name="lorem">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		In mollis est vitae erat laoreet consectetur. Mauris dui mauris,
+		dictum vel egestas vel, porta sed ante. Phasellus congue viverra ipsum,
+		in elementum arcu ultricies nec.Morbi tincidunt nisl lacinia, placerat nisi eget, luctus tortor.
+		Morbi efficitur dictum leo, sit amet volutpat lorem sodales nec. Quisque et erat et turpis fringilla condimentum.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor vulputate libero vitae iaculis.
+		Curabitur id blandit quam. Praesent massa ante, pulvinar vitae sagittis commodo, scelerisque porttitor eros.
+		Mauris suscipit a enim nec congue. Mauris tristique cursus aliquet. Nunc quis hendrerit nunc. Praesent tristique tellus purus,
+		a pretium ex gravida id. Cras laoreet malesuada nulla, at bibendum metus ultricies a. Fusce eu ornare arcu. Proin ut molestie est.
+		Vestibulum quis vehicula erat. Nam sed tempus nibh. Sed tortor ante, maximus venenatis odio sed, ultricies maximus lectus.
+		Aliquam sed volutpat ligula. Integer bibendum, magna ac lacinia suscipit,
+		risus libero rutrum justo, sed tempus augue tellus eget est. Curabitur convallis augue nisl,
+		id efficitur urna posuere faucibus. Ut sed egestas nulla, eu finibus metus. Nunc a arcu ante.
+		Aenean ullamcorper dolor non condimentum congue. Aenean mauris nunc, pellentesque at placerat vitae,
+		aliquet quis orci. Curabitur maximus augue ut bibendum sagittis.
+	</string>
+</resources>

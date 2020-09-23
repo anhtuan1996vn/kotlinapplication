@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recentFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/recentFragment"
+        android:name="com.testing.kotlinapplication.ui.recent.RecentFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_recent">
+        <action
+            android:id="@+id/action_recentFragment_to_detailProductFragment"
+            app:destination="@id/detailProductFragment" />
+        <action
+            android:id="@+id/action_recentFragment_to_cardFragment"
+            app:destination="@id/cardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.testing.kotlinapplication.ui.category.CategoryFragment"
+        android:label="Category"
+        tools:layout="@layout/fragment_category">
+        <action
+            android:id="@+id/action_categoryFragment_to_categoryDetailFragment"
+            app:destination="@id/categoryDetailFragment" />
+        <action
+            android:id="@+id/action_categoryFragment_to_cardFragment"
+            app:destination="@id/cardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.testing.kotlinapplication.ui.help.HelpFragment"
+        android:label="Help"
+        tools:layout="@layout/fragment_help">
+        <action
+            android:id="@+id/action_helpFragment_to_detailHelpFragment"
+            app:destination="@id/detailHelpFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_helpFragment_to_cardFragment"
+            app:destination="@id/cardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.testing.kotlinapplication.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
+
+        <action
+            android:id="@+id/action_profileFragment_to_orderHistoryFragment"
+            app:destination="@id/orderHistoryFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_cardFragment"
+            app:destination="@id/cardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailProductFragment"
+        android:name="com.testing.kotlinapplication.ui.detailproduct.DetailProductFragment"
+        android:label="Detail Product"
+        tools:layout="@layout/fragment_detail_product" >
+        <argument android:name="turn"
+            app:argType="integer" />
+        <argument android:name="id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_detailProductFragment_to_cardFragment"
+            app:destination="@id/cardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailHelpFragment"
+        android:name="com.testing.kotlinapplication.ui.detailhelp.DetailHelpFragment"
+        android:label="Detail help"
+        tools:layout="@layout/fragment_detail_help">
+        <argument
+            android:name="type"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryDetailFragment"
+        android:name="com.testing.kotlinapplication.ui.categorydetail.CategoryDetailFragment"
+        android:label="Detail Category"
+        tools:layout="@layout/fragment_category_detail">
+        <action
+            android:id="@+id/action_categoryDetailFragment_to_detailProductFragment"
+            app:destination="@id/detailProductFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="com.testing.kotlinapplication.ui.card.CardFragment"
+        android:label="Shopping Cart"
+        tools:layout="@layout/fragment_card">
+        <action
+            android:id="@+id/action_cardFragment_to_orderFragment"
+            app:destination="@id/orderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderHistoryFragment"
+        android:name="com.testing.kotlinapplication.ui.orderhistory.OrderHistoryFragment"
+        android:label="Order HIstory"
+        tools:layout="@layout/fragment_order_history" />
+    <fragment
+        android:id="@+id/orderFragment"
+        android:name="com.testing.kotlinapplication.ui.order.OrderFragment"
+        android:label="fragment_order"
+        tools:layout="@layout/fragment_order" />
+
+
+</navigation>

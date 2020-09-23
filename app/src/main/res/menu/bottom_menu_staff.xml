@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/statitic"
+    android:title="Statistic"
+    android:icon="@drawable/ic_bar_chart"
+    app:showAsAction="always"
+    android:orderInCategory="1"
+    />
+    <item
+        android:id="@+id/orders"
+        android:title="Orders"
+        android:icon="@drawable/ic_baseline_shop_24"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/management"
+        android:title="Management"
+        android:icon="@drawable/ic_test"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        />
+</menu>
